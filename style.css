@@ -33,6 +33,13 @@ body,html{
         justify-content: space-between;
     }
 /* CONTENU DE LA PAGE */
+.img{
+    margin-top: 110px;
+}
+.img1{
+    width: 325px;
+    margin-top: 110px;
+}
 .row1 {
     display: flex;
     justify-content: space-around;
@@ -58,6 +65,7 @@ body,html{
     margin-right: 100px;
     margin-left: 100px;
     margin-top: 100px;
+    margin-bottom: 20px;
   }
 
 
@@ -73,6 +81,7 @@ footer{
     justify-content: space-between;
     text-decoration: none;
     width: 100%;
+    
 }   
 
 
