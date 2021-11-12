@@ -1,9 +1,36 @@
+/* Toute la page */
 body,html{
     padding: 0;
     margin: 0;
     background-color: #C6C7C9;
 }
+/* HEADER + NAV */
 
+ header{
+    background-color :#0B170A;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
+    }
+    .nav a{
+        color: white;
+        text-decoration: none;
+    }
+     .nav{  
+    display: inline-flex;
+ }
+    
+    nav {
+        width: 33%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        justify-content: space-between;
+    }
+/* CONTENU DE LA PAGE */
 .row1 {
     display: flex;
     justify-content: space-around;
