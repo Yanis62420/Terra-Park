@@ -63,12 +63,14 @@ body,html{
 
 /*Footer*/
 footer{
+    margin-top: 50px;
+    background-color :#0B170A;
+    color: #ffffff;
     display: flex;
-    justify-content: space-around;
-    color: white;
-    background-color: #0B170A;
-    height: 220px;
-    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
 }   
 
 
@@ -89,6 +91,18 @@ footer{
     justify-content: space-around;
     margin-top: 20px;
     text-decoration: underline;
+}
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
 }
 
 
