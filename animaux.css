@@ -124,12 +124,6 @@ body,html{
         content: '';
         background:#0B170A;
       }
-    
-
-
-
-
-
     /*Footer*/
 footer{
     display: flex;
@@ -139,6 +133,9 @@ footer{
     height: 220px;
     margin-top: 30px;
 }   
+.bouton{
+  margin-top: 50px;
+}
 
 
 .rue{
@@ -159,3 +156,37 @@ footer{
     margin-top: 20px;
     text-decoration: underline;
 }
+@media screen and (max-width: 700px){
+
+nav{
+ width: auto;
+}
+.nav{
+  margin: 5px;
+}
+
+#ours{
+  width: 80%;
+}
+#singes{
+  width: 80%;
+}
+footer{
+  height: auto;
+  width: auto;
+}
+.rue{
+  font-size: 20px;
+}
+.mail{
+  font-size: 20px;
+}
+.tel{font-size: 20px;}
+.bouton{
+  margin-top: 20px;
+}
+.logo{
+  display: none;
+}
+}
+

@@ -1,0 +1,193 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    font-size: 30px;
+    background-color :#0B170A;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
+    }
+    .nav a{
+        color: white;
+        text-decoration: none;
+    }
+.nav{  
+    display: inline-flex;
+}
+    nav {
+        width: 33%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        justify-content: space-between;
+    }
+    video{
+        width: 100%;
+    }
+    main{
+        height: 1000px;
+        background: url("img/forest.png")  ;
+        background-size: cover;
+    }
+    .content-slider{
+        width: 60vw;
+        height: 60vh;
+        margin: auto;
+        padding-top: 250px;
+    }
+    .slide{
+        width: 100%;
+        height: 100%;
+        background-image: url("img/slide1.jpg");
+        opacity: 0;
+        transition: 0.5s;
+        display: none;
+        background-size: cover;
+    }
+    #two{
+        background-image: url("img/slide2.jpg");
+        background-size: cover;
+    }
+    #three{
+        background-image: url("img/slide3.jpg");
+        background-size: cover;
+    }
+    #four{
+        background-image: url("img/slide4.jpg");
+        background-size: cover;
+    }
+    #five{
+        background-image: url("img/slide5.jpg");
+        background-size: cover;
+    }
+    .active{
+        display: block;
+        opacity: 1;
+    }
+    .content-btn{
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .iconify{
+        border-radius: 100%;
+        color: white;
+        padding: 10px;
+    }
+
+
+/*Footer*/
+footer{
+    font-size: 40px;
+    background-color :#0B170A;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
+}   
+.rue{
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.tel{
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.mail{
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+  
+.bouton{
+  margin-top: 50px;
+}
+
+
+.rue{
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.tel{
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.mail{
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+@media screen and (max-width: 700px){
+    header{
+        height: auto;
+    }
+    nav{
+        width: auto;
+        flex-direction: column;
+    }
+    .logo{
+        display: none;
+    }
+    .nav{
+        margin: 5px;
+        height: auto;
+        
+    }
+    .content-slider{
+        height: 350px;
+        width: 400px;
+    }
+    footer{
+        height: auto;
+        width: auto;
+    }
+    .rue{
+        font-size: 20px;
+    }
+    .mail{
+        font-size: 20px;
+        margin-bottom: 20px;
+    
+    }
+    .tel{font-size: 20px;}
+    .bouton{
+        margin-top: 20px;
+    }
+
+
+
+
+
+}

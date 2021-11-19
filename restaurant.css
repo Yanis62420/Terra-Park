@@ -2,6 +2,8 @@
 html,body{
     margin: 0;
     padding: 0;
+    background-color: #C6C7C9;
+
 
 }
 /* header + nav*/
@@ -30,13 +32,158 @@ header{
         justify-content: space-between;
     }
 /* CORPS DE PAGE */
+
 p {
     margin-top: 50px;
     text-align: center;
     font-family: 'Open-Sans',sans-serif;
     font-size: 34px;
 }
-.image {
+.restoban {
     width: 100%;
+    text-align: center;
 }
+.row{
+    margin-top: 150px;
+}
+
+.img1{
+    width: 100%;
+    margin-top: 50px;
+}
+.img2{
+    width: 80%;
+    margin-top: 80px;
+}
+.img3{
+    width: 80%;
+    margin-top: 80px;
+}
+.img4{
+    width: 80%;
+    margin-top: 80px;
+}
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    }
+
+.row2 {
+    display: flex;
+    justify-content: space-around;
+    }
+
+.col1 {
+    width: 25%;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+.col2 {
+    width: 25%;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+/*Footer*/
+footer{
+    margin-top: 50px;
+    background-color :#0B170A;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
     
+}   
+.rue{
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.tel{
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.mail{
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+    @media screen and (max-width: 700px){
+        nav{
+            width: auto;
+            flex-direction: column;
+        }
+        
+        .logo{
+            display: none;
+        }
+        .nav{
+            height: auto;
+        }
+        .col1{
+            height: auto;
+            width: auto;
+            
+        }
+        .row1{
+            flex-direction: column;
+            width: auto;
+            align-items: center;
+            
+        }
+        .row{
+            width: 100%;
+        }
+        .col2{
+            width: auto;
+            text-align: center;
+            align-items: center;
+        }
+        .row2{
+            flex-direction: column-reverse;
+            margin-bottom: 40px;
+            width: auto;
+            align-items: center;
+        }
+        footer{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .rue{
+            font-size: 20px;
+        }
+        .mail{
+            font-size: 20px;
+            margin-bottom: 20px;
+        
+        }
+        .tel{
+            font-size: 20px;
+        }
+        .bouton{
+            margin-top: 20px;
+        }
+
+    }
